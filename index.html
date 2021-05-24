@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リアルタイムフィルター</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" type="text/css">
+</head>
+<body>
+  <main>
+    <div class="content-width">
+      <h1>リアルタイムフィルター</h1>
+      <p>入力した文字を含まない要素は非表示になります</p>
+      <input class="text" id="picture-filter" type="text" name="filter" onInput="filter()"/>
+      <div class="picture-boxes">
+        <div class="picture-box">
+          <img src="images/barley_tea.png" alt="barley_tea">
+          <p>キーワード</p>
+          <p class="keyword">
+            麦茶　むぎちゃ　mugitya
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/car.jpeg" alt="car">
+          <p>キーワード</p>
+          <p class="keyword">
+            車　くるま　kuruma
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/cherry_blossoms.jpg" alt="cherry_blossoms">
+          <p>キーワード</p>
+          <p class="keyword">
+            桜　さくら　サクラ　sakura
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/clock.jpeg" alt="clock">
+          <p>キーワード</p>
+          <p class="keyword">
+            時計　とけい　tokei
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/desert.jpg" alt="desert">
+          <p>キーワード</p>
+          <p class="keyword">
+            砂漠　さばく sabaku
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/octopus.jpeg" alt="octopus">
+          <p>キーワード</p>
+          <p class="keyword">
+            蛸　たこ　タコ　tako
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/soap.jpeg" alt="soap">
+          <p>キーワード</p>
+          <p class="keyword">
+            石鹸　せっけん　sekken
+          </p>
+        </div>
+        <div class="picture-box">
+          <img src="images/squid.jpeg" alt="squid">
+          <p>キーワード</p>
+          <p class="keyword">
+            烏賊　いか　イカ ika
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
